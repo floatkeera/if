@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, {
     margin: 0;
     padding: 0;
     border: 0;
@@ -34,12 +34,12 @@ b, strong { font-weight: bold }
 i, em { font-style: italic }
 /* Reset ends here */
 body {
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(0, 40, 200)), to(rgb(10, 10, 0)));
-    background:    -webkit-radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
-    background:    -moz-radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
-    background:    -ms-radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
-    background:    -o-radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
-    background:    radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(199, 28, 214)), to(rgb(10, 10, 0)));
+    background:    -webkit-radial-gradient(rgb(199, 28, 214), rgb(10, 10, 0));
+    background:    -moz-radial-gradient(rgb(199, 28, 214), rgb(10, 10, 0));
+    background:    -ms-radial-gradient(rgb(199, 28, 214), rgb(10, 10, 0));
+    background:    -o-radial-gradient(rgb(199, 28, 214), rgb(10, 10, 0));
+    background:    radial-gradient(rgb(199, 28, 214), rgb(10, 10, 0));
 }
 .impress-enabled .step {
     margin: 0;
@@ -61,8 +61,8 @@ body {
     color: rgb(52, 52, 52);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     border-radius: 5px;
-    font-family: 'Open Sans', "Trebuchet MS";
-    font-size: 30px;
+    font-family: 'Open Sans', "Leelawadee";
+	font-size: 24px
 }
 .slide p{
   margin-top:15px;
@@ -134,7 +134,3 @@ h3{
   background-color: white;
 }
 
-bitch{
-height:200px
-width:300px
-}
