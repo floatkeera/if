@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Interactive Fiction</title>
+    <link href="main.css" rel="stylesheet" />
+</head>
+
+<body>
+<div id="impress">
+    <div id="1" class="step slide">
+      <div class="slide-text">
+        <p>Welcome to the history of computers. Would you like to learn about the first PC or the first Mac?</p>
+        <p><a href="#2">I'm looking forward to learn about the first Personal Computer.</a></p>
+        <p><a href="#3">I'm interested in learning about the first Mac.</a></p>
+		<img src="pleadingcomputer.gif">
+     </div>
+	 </div>
+
+	
+	 
+    <div id="2" class="step slide" data-x="1500">
+      <div class="slide-text">
+        <p>This is the first PC... The Kenbak-1</p>
+	<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+		<p><a href="#1">START OVER</a></p>
+      </div>
+       <div class="menu"><div class="inventory-box"><img src="kenbak1.jpg" alt="dino" class="item" id="dino"></div></div>
+	   </div>
+
+	 <div id="3" class="step slide" data-x="-1500">
+	   <div class="slide-text">
+	   <p>This is the first Mac...
+	   </div>
+	   </div>
+ 
+
+<script src="impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
